@@ -3,32 +3,32 @@ import Home from "../pages/Home/Home";
 export const routes = [
     {
         path: '/',
-        component: Home,
+        element: Home,
         auth: true
     },
     {
         path: '/profile/:id',
-        component: Home,
+        element: Home,
         auth: true
     },
     {
         path: '/messages',
-        component: Home,
+        element: Home,
         auth: true
     },
     {
         path: '/message/:id',
-        component: Home,
+        element: Home,
         auth: true
     },
     {
         path: '/friends/:id',
-        component: Home,
+        element: Home,
         auth: true
     },
     {
         path: '/auth',
-        component: Home,
+        element: Home,
         auth: false
-    },
+    }
 ]

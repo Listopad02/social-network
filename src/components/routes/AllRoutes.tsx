@@ -15,8 +15,8 @@ const AllRoutes:FC = () => {
 
                     return (
                         <Route path={route.path}
-                               key={`route ${route.path}`}>
-                            <route.component />
+                            key={`route ${route.path}`}
+                            element={<route.element />}> 
                         </Route>
                     )
                 }) }
